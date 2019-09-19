@@ -33,7 +33,7 @@ gas_value=analogRead(sensor);
   
 }
 
-
+/* 
 void sendSMS(char text[])
 {
   delay(500);
@@ -52,7 +52,7 @@ void sendSMS(char text[])
   Serial.write(0x1A); // ASCII code of CTRL+Z. command to send SMS.
   delay(500);
   digitalWrite(speaker,HIGH);
-}
+} */
 
 
 void makeCall()
