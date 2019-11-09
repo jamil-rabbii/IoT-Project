@@ -15,17 +15,32 @@ II. Hardware Requirement
 9. Buzzer
 10. Breadboard
 
-Connections : 
-Between Sensors and Arduino
+## Connections : 
+**Between Sensors and Arduino*
 
 Sensors     Arduino
 D0          A0
 GND         GND
 VCC         5V
 
+| Sensors        | Arduino           |
+| ------------- |:-------------:|
+| D0  | A0 |
+| GND      | GND |
+| VCC | 5V     | 
+
+**Between Buzzer and Arduino**
+
 Buzzers     Arduino
 Positive    5v
 Negative    pin 10
+
+| Buzzers        | Arduino           |
+| ------------- |:-------------:|
+| Positive  | 5v |
+| Negative      | pin 10 |
+
+**Between GSM and Arduino**
 
 GSM         Arduino
 GND         GND
@@ -33,13 +48,10 @@ GND         GND
 RX          TX
 TX          RX  
 
-Connect the devices as mentioned  and upload the code into the Arduino...
-
-
-
-| Tables        | Are           |
+| GSM        | Arduino           |
 | ------------- |:-------------:|
-| col 3 is      | right-aligned |
-| col 2 is      | centered      |
-| zebra stripes | are neat      | 
-
+| GND      | GND |
+| 5V     | 5V    |
+| RX  | TX       | 
+| TX  | RX       | 
+Connect the devices as mentioned  and upload the code into the Arduino...
